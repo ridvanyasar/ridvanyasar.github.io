@@ -1,0 +1,51 @@
+body{
+    background-color: #ffecd6;
+}
+
+.logom{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    background: #0F2167;
+    padding: 100px 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.logom .title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: #ffecd6;
+}
+
+.logom .form .doldurulacak_kisim{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.logom .form .doldurulacak_kisim .giris{
+    width: 100%;
+    padding: 12px;
+    padding-left: 30px;
+    border: none;
+    background: #ffecd6;
+}
+
+.logom .form .btn{
+    width: 70%;
+    margin: 20px auto 0;
+    background: #ffecd6;
+    padding: 12px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.logom .form .btn a{
+    color: #0F2167;
+}
+ 
+

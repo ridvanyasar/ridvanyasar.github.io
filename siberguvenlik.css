@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+}
+
+.sayfa {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.soldaki-kurslar {
+    margin: 0px 10px;
+}
+
+.tum-kurslar{
+    display: flex;
+}
+
+header {
+    background-color: #0f2167;
+    color: #ecf0f1;
+    padding: 20px 0px;
+}
+
+header h1,nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    transition: 300ms all;
+}
+
+nav a:hover{
+    background-color: #ffecd6;
+    color: #0f2167;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.acilir_menu{
+    display: none;
+    margin-top: 30px;
+}
+
+li:hover .acilir_menu{
+    display: block;
+    position:relative;
+}
+
+.logo{
+    text-align: center;
+    height: 150px;
+    width: 200px;
+}
+
+footer{
+    background-color: #0f2167;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
